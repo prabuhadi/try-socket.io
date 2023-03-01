@@ -8,7 +8,7 @@ Build a real-time commenting system using React, Node.js and Socket.io by showin
 
 ## Preview Mobile
 
-![preview-mobile](/mobile-preview.png)
+<img src='/mobile-preview.png' width='375' alt='Preview Mobile' />
 
 ## Read more
 
