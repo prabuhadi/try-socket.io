@@ -3,6 +3,7 @@ const Header = ({ users, selectedUserId, setSelectedUserId }) => {
     <header className="Header" key={selectedUserId}>
       <div className="Header-user">
         <select
+          className="List-user"
           value={selectedUserId}
           onChange={(e) => {
             setSelectedUserId(e.target.value);

@@ -1,7 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
 .App {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-color: #15151c;
 }
@@ -9,7 +18,7 @@
 .Header {
   display: flex;
   padding: 8px 16px;
-  height: 32px;
+  height: 50px;
   background-color: #20222b;
   border-bottom: 1px solid #0f1014;
 }
@@ -22,6 +31,47 @@
 .Header-user {
   display: flex;
   align-items: center;
+}
+
+.List-user {
+  height: 28px;
+  margin: 12px;
+  padding: 0 20px;
+}
+
+.Content {
+  display: flex;
+  height: 100%;
+}
+
+.Hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.text-content {
+  color: #ffffffad;
+  line-height: 2;
+}
+
+.hero-img {
+  width: 600px;
+  margin-top: 32px;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 0;
+  width: 600px;
+}
+
+.Title {
+  color: #fff;
 }
 
 .Comments {
@@ -128,4 +178,10 @@
 
 .Comment-body {
   margin-left: 32px;
+}
+
+@media (max-width: 950px) {
+  .Hero {
+    display: none;
+  }
 }
